@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <title>Teste de Carga Máxima</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/resposta.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <h1 class="cabecalho__titulo">
+            Teste de <strong class="cabecalho__titulo__strong">Carga Máxima</strong>
+        </h1>
+    </header>
+    <main>
+        <section class="container">
+
+            <h2 class="container__titulo">
+                Instrução:
+            </h2>
+             
+            <ol class="container__lista">
+                
+                <li class="container__lista__item"><span class="container__lista__estilo">1.</span> Selecione uma carga presumindo que irá conseguir fazer apenas 1 repetição com ela.</li>
+
+                <li class="container__lista__item"><span class="container__lista__estilo">2.</span> Faça o máximo de repetições completas(amplitude máxima) que conseguir.</li>
+
+                <li class="container__lista__item"><span class="container__lista__estilo">3.</span> Em seguida coloque abaixo a carga usada e a quantidade de repetições que foram executadas.</li>
+
+                <li class="container__lista__item"><span class="container__lista__estilo">4.</span> Use o botão Calcular e veja sua carga máxima.</li>
+             
+            </ol>
+            
+             <p>
+                <label class="container__label" for="txt_peso">Carga:</label>            
+                <input class="container__input" type="number" name="peso" id="txt_peso"> Kg
+            </p>
+            
+            <p>
+                <label class="container__label" for="txt_rep">Repetições:</label>
+                <input class="container__input" type="number" name="repeticoes" id="txt_rep"> reps.
+            </p>
+
+            <input id="botao__calcular" class="container__botao" type="button" value="Calcular">
+            
+            <div class="container__resposta">
+
+            </div>           
+        </section>
+    </main>
+    <footer class="rodape">
+        <p class="rodape__texto">
+            Criado por <a class="rodape__link" href="https://www.instagram.com/hoppe_94/" target="_blank">&copy; Gustavo Hoppe</a>
+        </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
